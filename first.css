@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: sans-serif;
+  }
+  /* h1,h2,h3,h4,h5,h6{
+    font-family: "roboto" sans-serif;
+  }
+  #header{
+    background: #1F0245;
+    padding: 10px;
+  }
+  #header .logo{
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 30rem;
+  }
+  #header .logo a{
+    color: #fff;
+  }
+  .nav-menu >ul{
+    display: flex;
+  }
+  .nav-menu >ul >li{
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0 10px 22px;
+  }
+  .nav-menu a{
+    display: block;
+    position: relative;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    padding: 0 15px;
+  }
+  .nav-menu >ul >li a::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -6px;
+    left: 0;
+    width: 0;
+    background:#E2239A ;
+    visibility: hidden;
+    transform: all 3sec ease-in-out;
+  }
+  .nav-menu a:hover::before,
+  .nav-menu li >a::before,
+  .nav-menu .active >a::before{
+    visibility: visible;
+    width: 90%;
+  }
+  .apply-btn {
+    color:#fff;
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    padding: 6px 25px 8px 25px;
+    font-size: 15px;
+    transition: 0.3s;
+    display: inline;
+    font-weight: 400;
+    border: 2px solid rgba(255,255,255,0.7);
+    border: none;
+    background: #E2239A;
+    position: relative;
+    top: -5px;
+    right:-7px;
+  }
+  .apply-btn:hover{
+    color: rgba(240, 255, 255, 0.849);
+    background: rgba(247,88,66,0.4);
+  }
+  .hero-text{
+    padding-top: 10rem;
+    word-break: break-all;
+  }
+  .btn-1{
+    background-color: #E2239A;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  } */
+  /*  */
+
+
+ 
