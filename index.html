@@ -5,61 +5,314 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
- crossorigin="anonymous"> -->
-<link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
+    <!-- Bootstrap link and icons only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="new.css">
+    <!-- owl corousel link -->
+    <link rel="stylesheet" href="./corousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./corousel/owl.theme.default.min.css">
 </head>
-
 <body>
-  <header class=" fixed-top " id="header">
-      <div class="container d-flex align-items-center " >
-          <!-- logo -->
-          <h1 class="logo "><a href="">Logo</a></h1>
-        <!-- end of logo -->
-        <nav class="nav-menu d-none d-lg-block">
-            <ul>
-                <li class="active"><a href="">HOME</a></li>
-                <li><a href="">Courses</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
-            </nav>
-            <!-- end of nav bar -->
-            <div class="design1">
-                <a href="" class="apply-btn scrollto">Apply</a>
-             </div>
-      </div>
-  </header>
 
-  <!-- <div class="p-5 mb-4 bg-light rounded-3">
-    <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-      <button class="btn btn-primary btn-lg" type="button">Example button</button>
-    </div>
-  </div> -->
-<section class="section1">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div>
-                    <div class="copy">
-                        <div class="label">
-                            <h1>Learn any tech course and join the world’s tech community.</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur expedita quae aliquid culpa quibusdam voluptatibus distinctio officia assumenda quaerat quis.</p>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+          <a class="navbar-brand logo" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_icons" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav_icons">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link " href="#">Home</a>
+              <a class="nav-link" href="#">Contacts</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link">Courses</a>
+            </div>
+            <a href="" class=" btn-secondary shadow-none"><i class="bi bi-search"></i></a>
+            <a href="" class="btn btn-primary shadow-none ms-3">Get started</a>
+          </div>
+        </div>
+      </nav>
+      <section class="section_hero">
+          <div class="container text-light pt-5">                       
+            <div class="row">
+                  <div class=" col-md-6 ">
+                      <div class="hero_text mt-md-4">
+                          <h1>Learn any tech course and join the world’s tech community.</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus temporibus molestiae, reprehenderit vero officia quis laborum adipisci impedit quas deserunt ullam aut. Repudiandae, doloribus fuga!</p>
+                      </div>
+                      <div class="hero_btn">
+                          <a href="" class="btn btn-danger shadow-none">Explore more</a>
+                      </div>
+                  </div>
+                  <div class="col-md-6 sect_img">
+                      <img src="img/animation.png" alt="" class="mt-4 w-100 align-items-center ">
+                  </div>
+              </div>
+          </div>
+      </section>
+      <section class="sections">
+          <div class="container ">
+            <div class="course_heading">
+                <h2>Popular Courses</h2>
+                <hr >
+                <p>List of courses that will guarantee you a success in your career</p>
+            </div>
+              <div class="img_slider1 owl-carousel owl-theme mt-5" >
+                    <div class="ms-2 me-2">
+                        <div class="slide_img">
+                            <img src="img/program1.jfif" alt="">
+                            <h3 class="text_1">Pyton programming language</h3>
+                            <div class="slide_btn">
+                                <a href="" class="btn btn-success">Explore more</a>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-2 me-2">
+                        <div class="slide_img">
+                            <img src="img/program10.jfif" alt="">
+                            <h3 class="text_1">Pyton programming language</h3>
+                            <div class="slide_btn">
+                                <a href="" class="btn btn-success">Explore more</a>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-2 me-2">
+                        <div class="slide_img">
+                            <img src="Img/program5.jfif" alt="">
+                            <h3 class="text_1">Pyton programming language</h3>
+                            <div class="slide_btn">
+                                <a href="" class="btn btn-success">Explore more</a>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-2 me-2">
+                        <div class="slide_img">
+                            <img src="Img/program6.jfif" alt="">
+                            <h3 class="text_1">Pyton programming language</h3>
+                            <div class="slide_btn">
+                                <a href="" class="btn btn-success">Explore more</a>
+                             </div>
+                        </div>
+                    </div>
+
+                    <div class="ms-2 me-2">
+                        <div class="slide_img">
+                            <img src="Img/program7.jfif" alt="">
+                            <h3 class="text_1">Pyton programming language</h3>
+                            <div class="slide_btn">
+                                <a href="" class="btn btn-success">Explore more</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </section>
+        <section class="section2">
+            <div class="container">
+                <div class="hr_2"><hr></div>
+                <div class="row section2_div">
+                    <div class="col-lg-5  ">
+                        <div class="section2_text">
+                            <h3>GrappleSpace is a tech institue that trains students who wants to become a Guru in a tech community</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ">
+                        <div class="section2_icons d-flex justify-content-sm-around  sect_icon">
+                            <div class="section2_icon">
+                                <h2><i class="bi bi-laptop"></i></h2>
+                                <p>Proffessionalism</p>
+                            </div>
+                            <div class="section2_icon">
+                                <h2><i class="bi bi-lightbulb"></i></h2>
+                                <p>Creativity</p>
+                            </div>
+                            <div class="section2_icon">
+                                <h2><i class="bi bi-gear-wide-connected"></i></h2>
+                                <p>Conectivity</p>
+                            </div>
+                        </div>
+                        <div class="section2_icon_text">
+                            <p class="lead first_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium cum atque eveniet sequi exercitationem doloremque blanditiis ipsam eius minus accusantium vitae vel error rerum dolores iure corrupti nihil, harum esse.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto fugit corporis, sint natus id beatae fugiat ut veniam a ex inventore soluta adipisci magni itaque maiores nobis ab doloremque magnam! Vel, saepe! Ratione, libero commodi?</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="section3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section3_text ">
+                            <h2 class="mb-4">Get a class according to your Circumstance</h2> 
+                            <h4>We have the perfect Learning condition that suites you</h4> 
+                            <h4>Join the classes, in person classes or individual class as it suites you</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="scetion3_avatar">
+                         <div class=" ">
+                                <div class="row sect3_img">
+                                    <div class="col-md-6">
+                                        <div class="img_sect3">
+                                            <img src="Img/online private.jpg " class="img-fluid w-100" alt="">
+                                            <h3>Online Private classs</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="img_sect3">
+                                            <img src="Img/General online classes.jpg" class=" img-fluid w-100" alt="">
+                                            <h3>Online General class</h3>
+                                        </div>
+                                    </div>
 
-            <div class="col-md-6">
-                <img src="Img/animation.png" alt="">
+                                    <div class="col-md-6 mt-4">
+                                        <div class="img_sect3">
+                                            <img src="Img/online private.jpg" class="img-fluid w-100" alt="">
+                                            <h3> private physical</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 mt-4">
+                                        <div class="img_sect3">
+                                            <img src="Img/general classes.jpg" class="img-fluid w-100" alt="">
+                                            <h3>General physical</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                 <!-- <div class="class_img">
+                                        <img src="Img/lady1.jpg" alt="">
+                                        <h3>Online training</h3>
+                                    </div>
+                                 <div class="class_img ">
+                                    <img src="Img/lady2.jpg" alt="">
+                                    <h3>Physical training</h3>
+                                 </div>
+
+                                 <div class="class_img ">
+                                    <img src="Img/lady2.jpg" alt="">
+                                    <h3>Physical training</h3>
+                                  </div>
+
+                                  <div class="class_img ">
+                                    <img src="Img/lady2.jpg" alt="">
+                                    <h3>Physical training</h3>
+                                  </div> -->
+                            </div
+                         </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
-  <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+        </section>
+        <section class="section4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="section4_text g-2">
+                            <h2>What our students are saying</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus tempore quo obcaecati qui delectus animi reiciendis. Aliquam quidem rerum mollitia est tenetur in accusantium atque!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="text_h3">Testimonials</h3>
+                        <div class="img_slider2 owl-carousel owl-theme">
+                            <div class="testimonial1 ms-2 me-2 ">
+                                <div class="student_img">
+                                    <img src="Img/lady1.jpg" alt="">
+                                </div>
+                                        <div class="title">Abimballer</div>
+                                  <p class="role">Product Designer</p>
+                                <div class="student_text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reprehenderit quae laudantium.
+                                    Non totam error officia veniam excepturi. Aliquam repellat repudiandae provident maxime explicabo atque.</p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial1 me-2 ms-2 ">
+                                <div class="student_img">
+                                    <img src="Img/lady1.jpg" alt="">
+                                </div>
+                                        <div class="title">Abimballer</div>
+                                  <p class="role">Product Designer</p>
+                                <div class="student_text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reprehenderit quae laudantium.
+                                    Non totam error officia veniam excepturi. Aliquam repellat repudiandae provident maxime explicabo atque.</p>
+                                </div>
+                            </div>
+
+                            <div class="testimonial1 me-2 ms-2">
+                                <div class="student_img">
+                                    <img src="Img/lady1.jpg" alt="">
+                                </div>
+                                        <div class="title">Abimballer</div>
+                                  <p class="role">Product Designer</p>
+                                <div class="student_text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reprehenderit quae laudantium.
+                                    Non totam error officia veniam excepturi. Aliquam repellat repudiandae provident maxime explicabo atque.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="navigate footer_text">
+                            <h2>Navigation</h2>
+                            <p><a href="">Home</a></p>
+                            <p><a href="">About us</a></p>
+                            <p><a href="">Contact us</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="action footer_text">
+                            <h2>Action</h2>
+                            <p><a href="">Make Enquiries</a></p>
+                            <p><a href="">Get started</a></p>
+                            <p><a href="">Apply Now</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="course_foot footer_text">
+                            <h2>Courses</h2>
+                            <p><a href="">Python Programming</a></p>
+                            <p><a href="">User Interface User Experience UI/UX</a></p>
+                            <p><a href="">Web Development</a></p>
+                            <p><a href="">Graphics Design</a></p>
+                            <p><a href="">Computer Automatic Design (CAD)</a></p>
+                            <p><a href="">Structured query Language (AQL)</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="address footer_text">
+                            <h2>Address</h2>
+                            <h3><a href=""><i class="bi bi-geo-alt"></i>132,herbert macauly way, Adekunle 1010245, Lagos</a></h3>
+                            <h2>Social media handle</h2>
+                            <p><a href=""><i class="bi bi-twitter"></i>GrappleSpace</a></p>
+                            <p><a href=""><i class="bi bi-linkedin"></i> GrappleSpace</a></p>
+                            <p><a href=""><i class="bi bi-instagram"></i>GrappleSpace</a></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      <!-- js corousel link -->
+      <script src="./corousel/jQuery.js"></script>
+    <script src="./corousel/owl.carousel.min.js"></script>
+    <script src="./corousel/carousel.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
-</html> 
+</html>
