@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@700&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: sans-serif;
+  }
+  :root{
+    /* --primary-color:#9A97EF;
+    --success-color:#E2239A;
+    --color-warning:#1F0245;
+    --color-danger:#c6538c;
+    --color-danger-varient:rgba(247,88,66,0.4);
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.7);
+    --color-black:#000;
+    --color-bg:#E0688B;
+    --color-bg1:#F6B696;
+    --color-bg2:#EAACD1;
+    --color-bg3:#F9C6D4; */
+
+    --container-width-ig:80%;
+    --container-width-md:90%;
+    --container-width-sn:94%;
+    --transition: all 400ms ease;
+    --font-weight :700;
+    --font-weight-medium:600;
+    --font-weight-small:500;
+    --font-weight-smaller :400;
+    --font-weight-smallest:300;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+/* button style */
+.btn{
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-weight: var(--font-weight-smaller);
+    font-size:20px;
+    outline: none;
+    border: none;
+}
+.btn-primary{
+    background: #fd059e;
+
+}
+.btn-primary:hover{
+    background:#000 ;
+}
+.btn-secondary{
+    background: #fff;
+    border-radius: 15px;
+    color: #000;
+    font-size: 20px;
+    padding:5px 10px ;
+    font-weight: var(--font-weight-medium);
+}
+.btn-danger{
+background-color: #f00997ea;
+color:#fff;
+font-size: 25px;
+font-weight: var(--font-weight-small);
+}
+.btn-danger:focus{
+    background-color: #c6538c;
+    box-shadow:0,4px,19px rgba(0,0,0,0.3) ;
+    color:#fff;
+
+}
+.btn-danger:hover{
+    background:#fff;
+    color:#E2239A;
+}
+/* nav bar style */
+.logo{
+    padding-right: 16px;
+    color:#fff;
+}
+.navbar{
+    padding: 15px 0;
+    background:#1F0245;
+    word-break: break-all;
+}
+a.nav-link{
+margin-right: 38px;
+font-size: 20px;
+font-weight: var(--font-weight-small);
+color:#fff;
+}
+a.nav-link:hover{
+    color: antiquewhite;
+}
+/* hero section */
+
+.section_hero{
+    background:url('Img/landing1.png');
+    height: 40rem;
+    background-size: cover;
+}
+.hero_text{
+    padding-top: 7rem;
+}
+/* end of hero section style */
+
+/* courses style */
+.sections{
+    background-image: url('Img/landing3.png');
+    height: 35rem;
+    /* margin-top: 4rem; */
+}
+.course_heading hr{
+    width: 10%;
+    margin:0.5rem 1rem;
+    border-radius: 5px;
+    background: #fd059e;
+    height: 7px;
+    padding-right: 2rem;
+}
+.text_1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 25px;
+    font-weight: var(--font-weight-medium);
+    color:#fff;
+    text-align: center;
+}
+/* carousel btn */
+.btn-success{
+    background-color:#fff;
+    color:#E2239A;
+    font-size: 15px;
+    font-weight: var(--font-weight-small);
+    border: none;
+    position: absolute;
+    top: 80%;
+    right: 3.5%;
+    }
+.btn-success:hover{
+        background:#E2239A;
+        color:white;
+ }
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+}
+.owl-prev{
+    left: -30px;
+}.owl-next{
+    right: -30px;
+}
+.owl-prev span, .owl-next span{
+    font-size: 3rem;
+    color: black;
+}
+.owl-theme, .owl-nav[class*="owl-"]:hover{
+    background: transparent;
+}
+/* section icons */
+
+
+/* End of section with owl-carousel */
+.hr_2{
+   
+    margin:0.5rem 1rem;
+    border-radius: 5px;
+    background: #fd059e;
+    height: 7px;
+    padding-right: 2rem;
+}
+.section2{
+    background: url("Img/landing3.png");
+    background-size: cover;
+    height: 30rem;
+}
+.section2_text{
+    margin-top: 10rem;
+}
+.sect_icon{
+    margin-top: 4rem;
+}
+.section2_icons{
+color:#fd059e;
+
+}
+.section2_icon h2 i{
+    font-size:40px;
+    font-weight: var(--font-weight-medium);
+    margin-left: 2rem;
+}
+.section2_icon p{
+    font-size: 25px;
+    padding-right: 2rem;
+    font-weight: var();
+}
+/* scetion 3 design */
+.section3{
+    background: url('Img/Habiba\ png.png');
+    height: 50rem;
+    background-size: cover;
+}
+.section3_text{
+    margin-top: 12rem;
+}
+/* Avtar image style */
+/* .section4{
+    padding-top: 4rem;
+} */
+
+.class_img h3{
+    text-align: center;
+    justify-content: center;
+    padding-left: 3rem;
+    padding-top: 10px;
+    font-weight: var(--font-weight-small);
+    font-size: 25px;
+}
+.sect3_img{
+    margin-top: 7rem;
+}
+.img_sect3 img{
+    border-radius: 1.5rem;
+}
+.img_sect3 h3{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+/* end of section3 */
+/* testimonial section4 */
+.text_h3{
+    margin:3rem 0rem 4rem 5rem;
+    text-align: center;
+    font-size: 26px;
+    color: #E2239A;
+    font-weight: var(--font-weight-medium);
+}
+.section4{
+    background: #fff;
+    padding-top: 4rem;
+}
+  .testimonial1{
+    background: #000;
+    width: 300px;
+    padding: 10px;
+    /* height: 30rem; */
+    border-radius: 0.5rem;
+    color: var(--color-white);
+     position: relative;
+     color:white;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5rem;
+}
+.testimonial1 p.role{
+    font-size: 20px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+ .testimonial1 p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+ .testimonial1 .student_img{
+    object-fit: contain;
+    position: absolute; 
+    top: -60px ; 
+    left: 50% ; 
+    margin:10x;
+    transform: translateX(-50%);
+}
+.student_img img {
+    border-radius: 50%;
+    width: 5rem !important;
+    height: 5rem;
+    margin-top:3rem;
+ }
+    .section4_text{
+        margin-top: 10rem;
+        color:#E2239A;
+        text-align: center;
+        justify-content: center;
+    }
+    .section4_text h2{
+        font-size: 45px;
+        font-weight: var(--font-weight-medium);
+        margin-bottom: 1.5rem;
+    }
+    .section4_text p{
+        font-size:20px;
+    }
+  .student_text{
+      width: 85%;
+      margin: 1rem 0 2rem 2rem;
+  }
+
+  .img_slider2.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+}
+.img_slider2 .owl-prev.owl-prev{
+    left: -20px;
+    bottom: 4rem;
+}.owl-next{
+    right: -30px;
+    bottom: 4rem;
+}
+.img_slider2 .owl-prev span, .owl-next span{
+    font-size: 3rem;
+    color: black;
+}
+.img_slider2 .owl-theme, .owl-nav[class*="owl-"]:hover{
+    background: black;
+}
+/* footer */
+footer{
+    background: linear-gradient(#DD5E89,#F7BB97);
+}
+.footer_text h2{
+    font-size: 30px;
+    padding:2rem 0 2rem 0;
+}
+.footer_text h3 a{
+    color:white;
+    font-size: 20px;
+}
+.footer_text p a{
+    color:white;
+    font-size: 15px;
+}
+
+/* Landing page responsiveness */
+
+/* @media screen and (min-width:200px) and (max-width:250px) { 
+ .hero_text h1{
+     font-size:20px;
+ }
+ .hero_text p{
+     font-size: 15px;
+ }
+ .btn{
+     padding: 10px 20px;
+ }
+ .btn-danger{
+    font-size: 20px;
+ }
+ .course_heading{
+     margin-top: 5rem;
+ }
+ .sect_img img{
+     display: block !important;
+     margin-top: 3rem;
+ }
+ .sections{
+    background-image: url('Img/landing3.png');
+    height: 35rem;
+    margin-top: 4rem;
+}
+} */
+
+@media screen and (min-width:500px) and (max-width:641px) { 
+   .hero_text h1{
+       font-size: 20px;
+   }
+    .hero_text p{
+        font-size: 15px;
+    }
+    .btn{
+        padding: 10px 20px;
+    }
+    .btn-danger{
+       font-size: 20px;
+    }
+    .course_heading{
+        margin-top: 5rem;
+    }
+ .sect_img img{
+     display:none;
+ }
+   
+.section_hero{
+    background:url('Img/landing1.png');
+    height: 30rem;
+    background-size: cover;
+}
+.course_heading h2{
+    font-size: 30px;
+    color: white;
+}
+.course_heading hr{
+    width: 25%;
+    margin:0.5rem 1rem;
+    border-radius: 5px;
+    background: #fd059e;
+    height: 7px;
+    padding-right: 2rem;
+}
+.course_heading p{
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.section2_text{
+    margin-top: 3rem;
+}
+.section2{
+    background: url("Img/landing3.png");
+    background-size: cover;
+    height: 40rem;
+}
+.section2_icon h2 i{
+    font-size:30px;
+    font-weight: var(--font-weight-medium);
+    margin-left: 2rem;
+  
+}
+.section2_icon p{
+    font-size: 20px;
+    padding-right: 2rem;
+    font-weight: var();
+}
+.sect_icon{
+    margin-top: 2rem;
+}
+.section3{
+    background: url('Img/Habiba\ png.png');
+    height: 120rem;
+    background-size: cover;
+}
+.section3_text{
+    margin-top: 1.5rem;
+}
+.sect3_img{
+    margin-top: 4rem;
+}
+.section4{
+    background: #fff;
+    padding-top: 1rem;
+}
+.section4_text{
+    margin-top: 2rem;
+    color:#E2239A;
+    text-align: center;
+    justify-content: center;
+}
+.section4_text h2{
+    font-size: 40px;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 1.5rem;
+}
+.section4_text p{
+    font-size:20px;
+}
+.testimonial1{
+    background: #000;
+    width: 300px;
+    padding: 10px;
+    /* height: 30rem; */
+    border-radius: 0.5rem;
+    color: var(--color-white);
+     position: relative;
+     color:white;
+     margin-left: 7rem !important;
+}
+}
+  @media (min-width:640px) and (max-width:705px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+    .hero_text h1{
+        font-size: 30px;
+    }
+     .hero_text p{
+         font-size: 20px;
+         padding-top: 10px;
+     }
+     .hero_btn{
+         padding-top: 10px;
+     }
+     .btn{
+         padding: 10px 20px;
+     }
+     .btn-danger{
+        font-size: 25px;
+     }
+     .course_heading{
+         margin-top: 5rem;
+     }
+  .sect_img img{
+      display:none;
+  }
+    
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 35rem;
+     background-size: cover;
+ }
+ .course_heading h2{
+     font-size: 35px;
+     color: white;
+     padding-top: 10px;
+ }
+ .course_heading hr{
+     width: 25%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 20px;
+     padding-top: 10px;
+ }
+ .section2_text{
+     margin-top: 3rem;
+ }
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 40rem;
+ }
+ .section2_icon h2 i{
+     font-size:30px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 2rem;
+   
+ }
+ .section2_icon p{
+     font-size: 20px;
+     padding-right: 2rem;
+     font-weight: var();
+ }
+ .sect_icon{
+     margin-top: 2rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 120rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 40px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1.5rem;
+ }
+ .section4_text p{
+     font-size:20px;
+ }
+ .testimonial1{
+     background: #000;
+     width: 300px;
+     padding: 10px;
+     /* height: 30rem; */
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      margin-left: 7rem !important;
+ }
+ 
+} 
+  @media (min-width:705px) and (max-width:770px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    .hero_text h1{
+        font-size: 25px;
+    }
+     .hero_text p{
+         font-size: 20px;
+         padding-top: 10px;
+     }
+     .hero_btn{
+         padding-top: 10px;
+     }
+     .btn{
+         padding: 10px 20px;
+     }
+     .btn-danger{
+        font-size: 25px;
+     }
+     .course_heading{
+         margin-top: 5rem;
+     }
+  .sect_img img{
+      display:none;
+  }
+  .hero_text{
+    padding-top: 8rem;
+}
+    
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 40rem;
+     background-size: cover;
+ }
+ .course_heading h2{
+     font-size: 30px;
+     color: white;
+     padding-top: 10px;
+ }
+ .course_heading hr{
+     width: 25%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 20px;
+     padding-top: 10px;
+ }
+ .section2_text{
+     margin-top: 3rem;
+ }
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 40rem;
+ }
+ .section2_icon h2 i{
+     font-size:30px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 2rem;
+   
+ }
+ .section2_icon p{
+     font-size: 20px;
+     padding-right: 2rem;
+     font-weight: var();
+ }
+ .sect_icon{
+     margin-top: 2rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 120rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 40px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1.5rem;
+ }
+ .section4_text p{
+     font-size:20px;
+ }
+ .testimonial1{
+     background: #000;
+     width: 300px;
+     padding: 10px;
+     /* height: 30rem; */
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      margin-left: 7rem !important;
+ }
+    }
+  @media (min-width:771px) and (max-width:991px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+    .hero_text h1{
+        font-size: 25px;
+    }
+     .hero_text p{
+         font-size: 20px;
+         padding-top: 10px;
+     }
+     .hero_btn{
+         padding-top: 15px;
+     }
+     .btn{
+         padding: 10px 20px;
+     }
+     .btn-danger{
+        font-size: 25px;
+     }
+     .course_heading{
+         margin-top: 5rem;
+     }
+ 
+  .hero_text{
+    padding-top: 10rem;
+}
+.sect_img img{
+    height: 40rem;
+    background-size: cover;
+    padding: 10px;
+}
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 50rem;
+     background-size: cover;
+ }
+ .slide_img img{
+     height: 20rem;
+     background-size: cover;
+ }
+ .course_heading h2{
+     font-size: 30px;
+     color: white;
+     padding-top: 10px;
+ }
+ .course_heading hr{
+     width: 25%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 20px;
+     padding-top: 10px;
+ }
+ .section2_text{
+     margin-top: 3rem;
+  }
+
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 42rem;
+ }
+ .section2_icon h2 i{
+     font-size:30px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 2rem;
+   
+ }
+ .section2_icon p{
+     font-size: 20px;
+     padding-right: 2rem;
+     font-weight: var();
+ }
+ .sect_icon{
+     margin-top: 4rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 55rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 40px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1.5rem;
+ }
+ .section4_text p{
+     font-size:20px;
+ }
+ .testimonial1{
+     background: #000;
+     width: 300px;
+     padding: 10px;
+     /* height: 30rem; */
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      margin-left: 13rem !important;
+ }
+}
+  @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+  @media (min-width:1281px) {   
+ }
