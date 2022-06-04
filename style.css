@@ -108,7 +108,6 @@ a.nav-link:hover{
 .sections{
     background-image: url('Img/landing3.png');
     height: 35rem;
-    /* margin-top: 4rem; */
 }
 .course_heading hr{
     width: 10%;
@@ -338,32 +337,383 @@ footer{
 
 /* Landing page responsiveness */
 
-/* @media screen and (min-width:200px) and (max-width:250px) { 
- .hero_text h1{
-     font-size:20px;
- }
- .hero_text p{
-     font-size: 15px;
- }
- .btn{
-     padding: 10px 20px;
- }
- .btn-danger{
-    font-size: 20px;
- }
- .course_heading{
-     margin-top: 5rem;
- }
- .sect_img img{
-     display: block !important;
-     margin-top: 3rem;
+ @media screen and (min-width:200px) and (max-width:300px) { 
+    .hero_text h1{
+        font-size: 15px;
+    }
+     .hero_text p{
+         font-size: 10px;
+     }
+     .btn{
+         padding: 5px 10px;
+     }
+     .btn-danger{
+        font-size: 15px;
+     }
+     .sect_img img{
+         display: none;
+     }
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 30rem;
+     background-size: cover;
  }
  .sections{
     background-image: url('Img/landing3.png');
-    height: 35rem;
-    margin-top: 4rem;
+    height: 20rem;
 }
-} */
+ .course_heading h2{
+     font-size: 15px;
+     color: white;
+ }
+ .course_heading hr{
+     width: 35%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 15px;
+     padding-top: 5px;
+ }
+ .slide_img1 img{
+    height: 10rem;
+    background-size: cover;
+}
+.text_1{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 10px;
+    font-weight: var(--font-weight-medium);
+    color:#fff;
+    text-align: center;
+}
+/* carousel btn */
+.btn-success{
+    background-color:#fff;
+    color:#E2239A;
+    font-size: 10px;
+    font-weight: var(--font-weight-small);
+    border: none;
+    position: absolute;
+    top: 80%;
+    right: 3.5%;
+    }
+ .section2_text{
+     margin-top: 2rem;
+ }
+ .section2_text h3{
+     font-size: 15px;
+ }
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 40rem;
+ }
+ .section2_icon h2 i{
+     font-size:20px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 0.5rem;
+   
+ }
+ .section2_icon p{
+     font-size: 10px;
+     padding-right: 0.5rem;
+     font-weight: var();
+ }
+ .section2_icon_text >p{
+     font-size: 15px;
+ }
+ .sect_icon{
+     margin-top: 2rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 75rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .section3_text h2,h4{
+     font-size: 15px;
+     font-weight: var(--font-weight-small);
+ }
+
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 15px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1.5rem;
+ }
+ .section4_text p{
+     font-size:10px;
+ }
+ .text_h3{
+     margin-right: 10rem;
+     font-size: 15px;
+     padding-top: 2px;
+ }
+ .testimonial1{
+     background: #000;
+     width: 250px;
+     padding: 10px;
+     /* height: 30rem; */
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      margin-left: 10rem !important;
+ }
+ }
+ @media (min-width:301px) and (max-width:370px) {
+    .hero_text h1{
+        font-size: 20px;
+    }
+     .hero_text p{
+         font-size: 15px;
+     }
+     .btn{
+         padding: 10px 20px;
+     }
+     .btn-danger{
+        font-size: 20px;
+     }
+     .course_heading{
+       padding-top: 2rem;
+     }
+  .sect_img img{
+      display:none;
+  }
+    
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 30rem;
+     background-size: cover;
+ }
+ .course_heading h2{
+     font-size: 30px;
+     color: white;
+ }
+ .course_heading hr{
+     width: 25%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 15px;
+     padding-top: 5px;
+ }
+    .text_1{
+        font-size: 15px;
+    }
+    .sections{
+        height: 25rem;
+    }
+ .section2_text{
+     margin-top: 1.5rem;
+ }
+ .section2_text h3{
+     font-size: 20px;
+ }
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 40rem;
+ }
+ .section2_icon h2 i{
+     font-size:16px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 1rem;
+   
+ }
+ .section2_icon_text p{
+     font-size: 15px;
+ }
+ .section2_icon p{
+     font-size: 13px;
+     padding-right: 1rem;
+     font-weight: var();
+ }
+ .sect_icon{
+     margin-top: 2rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 85rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .section3_text h2{
+     font-size: 20px;
+ }
+ .section3_text h4{
+     font-size: 15px;
+ }
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 25px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1rem;
+ }
+ .section4_text p{
+     font-size:15px;
+ }
+    .text_h3{
+        margin:2rem 0rem 2rem 4rem;
+    }
+ .testimonial1{
+     background: #000;
+     width: 250px;
+     padding: 10px;
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      /* margin-left: em !important; */
+ }
+ }
+  @media (min-width:371px) and (max-width:499px){
+    .hero_text h1{
+        font-size: 20px;
+    }
+     .hero_text p{
+         font-size: 15px;
+     }
+     .btn{
+         padding: 10px 20px;
+     }
+     .btn-danger{
+        font-size: 20px;
+     }
+  .sect_img img{
+      display:none;
+  }
+    
+ .section_hero{
+     background:url('Img/landing1.png');
+     height: 30rem;
+     background-size: cover;
+ }
+ .slide_img img{
+     height: 15rem;
+ }
+ .sections{
+     height: 30rem;
+ }
+ .course_heading h2{
+     font-size: 30px;
+     color: white;
+ }
+ .course_heading hr{
+     width: 25%;
+     margin:0.5rem 1rem;
+     border-radius: 5px;
+     background: #fd059e;
+     height: 7px;
+     padding-right: 2rem;
+ }
+ .course_heading p{
+     color: white;
+     font-size: 15px;
+     padding-top: 5px;
+ }
+ .section2_text{
+     margin-top: 3rem;
+ }
+ .section2{
+     background: url("Img/landing3.png");
+     background-size: cover;
+     height: 40rem;
+ }
+ .section2_icon h2 i{
+     font-size:30px;
+     font-weight: var(--font-weight-medium);
+     margin-left: 2rem;
+   
+ }
+ .section2_icon p{
+     font-size: 20px;
+     padding-right: 2rem;
+     font-weight: var();
+ }
+ .sect_icon{
+     margin-top: 2rem;
+ }
+ .section3{
+     background: url('Img/Habiba\ png.png');
+     height: 110rem;
+     background-size: cover;
+ }
+ .section3_text{
+     margin-top: 1.5rem;
+ }
+ .sect3_img{
+     margin-top: 4rem;
+ }
+ .section4{
+     background: #fff;
+     padding-top: 1rem;
+ }
+ .section4_text{
+     margin-top: 2rem;
+     color:#E2239A;
+     text-align: center;
+     justify-content: center;
+ }
+ .section4_text h2{
+     font-size: 30px;
+     font-weight: var(--font-weight-medium);
+     margin-bottom: 1.5rem;
+ }
+ .section4_text p{
+     font-size:15px;
+ }
+ .testimonial1{
+     background: #000;
+     width: 300px;
+     padding: 10px;
+     border-radius: 0.5rem;
+     color: var(--color-white);
+      position: relative;
+      color:white;
+      margin-left: 5rem !important;
+ }
+  }
 
 @media screen and (min-width:500px) and (max-width:641px) { 
    .hero_text h1{

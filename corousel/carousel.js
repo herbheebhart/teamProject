@@ -14,6 +14,10 @@ $(".img_slider1 ").owlCarousel({
             items:0,
             dots:false
         },
+        200:{
+            items:1,
+            dots:0
+        },
       485:{
           items:1,
           dots:false
@@ -22,7 +26,7 @@ $(".img_slider1 ").owlCarousel({
           items:1,
           dots:false
       },
-      900:{
+      1000:{
           items:2,
           dots:false
       },
@@ -45,7 +49,11 @@ $(".img_slider2 ").owlCarousel({
             items:0,
             dots:false
         },
-      485:{
+        200:{
+            items:1,
+            dots:false
+        },
+      500:{
           items:1,
           dots:false
       },
